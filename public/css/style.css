@@ -1,0 +1,32 @@
+#estructura {
+  width: 500px;
+  margin: 0 auto; }
+  #estructura h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.accordion {
+  background-color: #9370DB;
+  color: #fff;
+  cursor: pointer;
+  padding: 3.6%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 3%;
+  transition: 0.4s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .accordion :hover {
+    background-color: #FA8072;
+    color: #778899; }
+
+.contenido {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0 3.6%;
+  display: 'block';
+  background-color: #ffdbc5;
+  color: black;
+  overflow: hidden; }
+
+.oculto {
+  display: none; }
